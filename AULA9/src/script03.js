@@ -1,0 +1,24 @@
+//Utilizando o BigInt
+let a = BigInt("84279585923689559823598575755892303576803769836309423508374580735870539407497230897549032798723985729038754908759349862958649827598237459");
+console.log(a);
+
+//Utilizando n
+let b = 84279585923689559823598575755892303576803769836309423508374580735870539407497230897549032798723985729038754908759349862958649827598237459n;
+console.log(b);
+
+//Utilizando operadores arítméticos com BigInt
+let c = 85875876769769676786876n;
+let d = 85875876769769676786876n;
+let e = (c * d);
+console.log(e);
+
+//Convertendo BigInt
+let f = BigInt("93269742659426962964782648687");
+let fConvertido = Number(f);
+console.log(fConvertido);
+
+//Utilizando métodos de comparação em BigInt
+let g = 100n;
+let h = 90n;
+let exComparacao = (g < h);
+console.log(exComparacao);
